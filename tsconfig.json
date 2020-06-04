@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    /* Basic Options */
+    "lib": ["esnext"],                           /* Specify library files to be included in the compilation. */
+    "rootDir": ".",                         /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
+
+    /* Strict Type-Checking Options */
+    "strict": true,                           /* Enable all strict type-checking options. */
+    "noImplicitAny": true,                    /* Raise error on expressions and declarations with an implied 'any' type. */
+
+    /* Additional Checks */
+    "noUnusedLocals": true,                /* Report errors on unused locals. */
+    "noUnusedParameters": true,            /* Report errors on unused parameters. */
+    "noImplicitReturns": true,             /* Report error when not all code paths in function return a value. */
+    /* Advanced Options */
+    "resolveJsonModule": true                 /* Include modules imported with '.json' extension */
+  }
+}

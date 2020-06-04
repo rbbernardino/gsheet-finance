@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+  <meta charset="UTF-8">
+
+  <head>
+    <!--recommended by google-->
+    <base target="_top">
+
+    <!--Custom style, script goes into the bottom-->
+    <?!= include('sidebar_stylesheet'); ?>
+
+    <!--Google style button etc-->
+    <!-- <link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons1.css"> -->
+
+    <!--Font Awesome for font icons-->
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" -->
+    <!--       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> -->
+  </head>
+
+  <body id="popup-body">
+    <div class="sidebar mui--text-center mui--align-middle">
+      <div class="btn-line-wrapper">
+        <button class="mui-btn mui-btn--raised fill-wrapper" onclick="google.script.host.ordenarPorValor()">
+          Ordenar por Valor
+        </button>
+      </div>
+
+      <div class="btn-line-wrapper">
+        <button class="mui-btn mui-btn--raised fill-wrapper" onclick="google.script.host.close()">
+          Fechar
+        </button>
+      </div>
+    </div>
+
+    <!-- Other JavaScript -->
+    <script src="//cdn.muicss.com/mui-0.9.41/extra/mui-combined.min.js"></script>
+
+    <!-- My JavaScript -->
+    <?!= include('sidebar_code'); ?>
+  </body>
+
+</html>
