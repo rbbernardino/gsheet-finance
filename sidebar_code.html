@@ -1,10 +1,18 @@
 <script>
-    /**
-     * STARTUP ACTIONS
-     **/
-    window.addEventListener('load', function () {
-        handleUpdatePL();
-        updatePLNames();
-        $('#loader').hide();
-    });
+  /**
+   * STARTUP ACTIONS
+   **/
+  window.addEventListener('load', function () {
+    // handleUpdatePL();
+    // updatePLNames();
+    // $('#loader').hide();
+  });
+
+  function handleOrdenar() {
+    google.script.run.ordenarPorValor();
+  }
+
+  function handleAlinhar() {
+    google.script.run.alinharValores();
+  }
 </script>
